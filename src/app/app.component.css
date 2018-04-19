@@ -1,0 +1,9 @@
+.headerLink{
+    display: inline;
+    margin: 0px 40px 0px 40px;
+}
+
+.headerLink a{
+    text-decoration: unset;
+    font-size: 40px;
+}

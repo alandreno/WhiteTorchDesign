@@ -1,2 +1,17 @@
-
-
+<div class=content>
+    <div class=header>
+        <div class="headerLink">
+            <a [routerLink]="['/home']">Home</a>
+        </div>
+        <div class="headerLink">
+            <a [routerLink]="['/bio']">Bio</a>
+        </div>
+        <div class="headerLink">
+            <a [routerLink]="['/contact']">Contact</a>
+        </div>
+        <div class="headerLink">
+            <a [routerLink]="['/gallery']">Gallery</a>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+</div>
