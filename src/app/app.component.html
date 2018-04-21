@@ -1,5 +1,6 @@
 <div class=content>
     <div class=header>
+        <div class=logo></div>
         <div class="headerLink">
             <a [routerLink]="['/home']">Home</a>
         </div>
@@ -13,5 +14,7 @@
             <a [routerLink]="['/gallery']">Gallery</a>
         </div>
     </div>
-    <router-outlet></router-outlet>
+    <div class=outletContent>
+        <router-outlet></router-outlet>
+    </div>
 </div>
