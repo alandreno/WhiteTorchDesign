@@ -1,20 +1,21 @@
 <div class=content>
     <div class=header>
-        <div class=logo></div>
-        <div class="headerLink">
-            <a [routerLink]="['/home']">Home</a>
-        </div>
-        <div class="headerLink">
-            <a [routerLink]="['/bio']">Bio</a>
-        </div>
-        <div class="headerLink">
-            <a [routerLink]="['/contact']">Contact</a>
-        </div>
-        <div class="headerLink">
-            <a [routerLink]="['/gallery']">Gallery</a>
-        </div>
+        <div class=logoContainer><div class=logo></div></div><div class=headerLinks>
+            <div class="headerLink">
+                <a [routerLink]="['/home']">Home</a>
+            </div>
+            <div class="headerLink">
+                <a [routerLink]="['/bio']">Bio</a>
+            </div>
+            <div class="headerLink">
+                <a [routerLink]="['/contact']">Contact</a>
+            </div>
+            <div class="headerLink">
+                <a [routerLink]="['/gallery']">Gallery</a>
+            </div>
+        </div>  
     </div>
-    <div class=outletContent>
+    <div class="outletContent" [@bgImgTrigger]="opacityState">
         <router-outlet></router-outlet>
     </div>
 </div>
