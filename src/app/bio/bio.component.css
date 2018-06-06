@@ -1,0 +1,17 @@
+.bbooImg {
+    background-image: url('../../content/images/bboo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 385px;
+    width: 385px;
+    display:inline-block
+}
+
+.bio{
+    display: inline-block;
+    width: 700px;
+}
+
+.bioContainer{
+
+}
