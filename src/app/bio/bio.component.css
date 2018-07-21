@@ -4,12 +4,14 @@
     background-size: contain;
     height: 385px;
     width: 385px;
-    display:inline-block
+    display:inline-block;
+    vertical-align: middle;
 }
 
 .bio{
     display: inline-block;
     width: 700px;
+    vertical-align: middle;
 }
 
 .bioContainer{

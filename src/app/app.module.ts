@@ -27,6 +27,7 @@ import { ContactComponent } from './contact/contact.component';
       { path: 'bio', component: BioComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'gallery', component: GalleryComponent },   
+      { path: '', redirectTo: 'home', pathMatch:'full' }
     ])
   ],
   providers: [],
