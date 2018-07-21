@@ -1,12 +1,12 @@
 @font-face{
-    font-family: yellowtail;
-    src: url('\content\fonts\hightide.ttf');
+    font-family: mainFont;
+    src: url('\content\fonts\Apalu.ttf'); 
 }
 
 html, body, app-root{
     height: 100%;
     margin: 0;
-    font-family: yellowtail;
+    font-family: mainFont;
     background-image: url('\content\images\forest.jpg');
     background-size: cover;
 }
