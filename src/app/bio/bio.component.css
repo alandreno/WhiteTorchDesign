@@ -12,8 +12,9 @@
     display: inline-block;
     width: 700px;
     vertical-align: middle;
+    white-space: initial;
 }
 
 .bioContainer{
-
+    white-space: nowrap;
 }

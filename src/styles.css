@@ -3,10 +3,16 @@
     src: url('\content\fonts\Apalu.ttf'); 
 }
 
+html{
+    background-image: url('\content\images\forest-fade.png');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: #1d2b37;
+}
+
 html, body, app-root{
     height: 100%;
+    width:100%;
     margin: 0;
     font-family: mainFont;
-    background-image: url('\content\images\forest.jpg');
-    background-size: cover;
 }
