@@ -1,13 +1,4 @@
-.content {
-    display: flex;
-}
-
 .outletContent {
-    display: inline-block;
-    position: absolute;
-    padding-left: 200px;
-    padding-top: 92px;
-    top: 63px;
     font-size: 30px;
     height: 100%;
     width: 100%;
@@ -15,10 +6,10 @@
 }
 
 .header{
-    display: inline-block;
     padding-bottom: 9px; 
     z-index: 20;
     white-space: nowrap;
+    width: 100%;
 }
 
 .headerLinks {
@@ -48,7 +39,7 @@
 .logo {
     background-image: url('../content/images/logo2.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 185px;
     width: 198px;
 }

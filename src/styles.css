@@ -5,7 +5,7 @@
 
 html{
     background-image: url('\content\images\forest-fade.png');
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #1d2b37;
 }
