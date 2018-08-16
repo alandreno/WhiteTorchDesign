@@ -17,3 +17,9 @@ html, body, app-root{
     margin: 0;
     font-family: mainFont;
 }
+
+.ngx-gallery-preview-img {
+    -webkit-box-shadow:0px 0px 36px 18px #636363 ;
+    -moz-box-shadow:0px 0px 36px 18px #636363 ;
+    box-shadow:0px 0px 36px 18px #636363 ;
+}

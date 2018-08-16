@@ -2,5 +2,9 @@
     white-space: nowrap;
     position: absolute;
     left: 222px;
-    top: 155px;
+    top: 108px;
+}
+
+a.ngx-gallery-thumbnail.ngx-gallery-active.ngx-gallery-clickable {
+    border: 2px solid black;
 }

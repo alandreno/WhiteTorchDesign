@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
-
+import { NgxGalleryModule } from 'ngx-gallery';
 
 @NgModule({
   declarations: [
@@ -18,6 +18,7 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    NgxGalleryModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: 'contact', component: ContactComponent },
