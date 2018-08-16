@@ -8,6 +8,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #1d2b37;
+    min-width: 1350px;
 }
 
 html, body, app-root{
