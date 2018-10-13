@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Honeycomb Shelves", 
+        "description": "Made out of welded aluminum and accentuated walnut, these hexagonal shelves will add the perfect accent to any space.",
+        "priceOptions": 
+        [
+            {"size": "8\"", "price": 30},
+            {"size": "12\"", "price": 50},
+            {"size": "16\"", "price": 80}            
+        ],
+        "addOns" : 
+        [
+            {
+                "addOnDescription": "Paint Color", 
+                "addOnPrice": 10,
+                "addOnOptions": 
+                [
+                    "Rose Gold",
+                    "White",
+                    "Black"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Triangle Planters", 
+        "description": "Available in brass, steel or aluminum, these planters will give you versatility when it comes to matching the perfect base for your plants.",
+        "priceOptions": 
+        [
+            {"size": "4\"", "type": "steel", "price": 5},
+            {"size": "8\"", "type": "steel", "price": 20},
+            {"size": "12\"", "type": "steel", "price": 30},
+            {"size": "4\"", "type": "aluminum", "price": 20},
+            {"size": "8\"", "type": "aluminum", "price": 25},
+            {"size": "12\"", "type": "aluminum", "price": 35},
+            {"size": "4\"", "type": "brass", "price": 30},
+            {"size": "8\"", "type": "brass", "price": 40},
+            {"size": "12\"", "type": "brass", "price": 50} 
+        ],
+        "addOns" : 
+        [
+            {
+                "addOnDescription": "Paint Color", 
+                "addOnPrice": 10,
+                "addOnOptions": 
+                [
+                    "Rose Gold",
+                    "White",
+                    "Black"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dry Vases", 
+        "description": "This modern and minimalistic design will highlight the beauty of any dry flower arrangement.",
+        "priceOptions": 
+        [
+            {"size": "5\"", "type": "Brass + Walnut", "price": 5},
+            {"size": "10\"", "type": "Brass + Walnut", "price": 20},
+            {"size": "5\"", "type": "Brass + Maple", "price": 30},
+            {"size": "10\"", "type": "Brass + Maple", "price": 20}
+        ]
+    }
+]

@@ -4,25 +4,29 @@ import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { GalleryComponent } from './gallery/gallery.component';
+import {  ProductsComponent } from './products/products.component';
 import { ContactComponent } from './contact/contact.component';
-import { NgxGalleryModule } from 'ngx-gallery';
+import { ProductComponent } from './product/product.component';
+import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    GalleryComponent,
-    ContactComponent
+    ContactComponent,
+    ProductComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
+    CommonModule,
+    HttpClientModule,
     BrowserAnimationsModule,
-    NgxGalleryModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: 'contact', component: ContactComponent },
-      { path: 'gallery', component: GalleryComponent },   
+      { path: 'products', component: ProductsComponent },   
       { path: '', redirectTo: 'home', pathMatch:'full' }
     ])
   ],
