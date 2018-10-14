@@ -3,6 +3,7 @@ export class Product {
     description: string;
     priceOptions: PriceOptions[];
     addOns: Addon[];
+    imageUrl:string;
 }
 
 export class PriceOptions{

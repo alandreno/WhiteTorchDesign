@@ -28,3 +28,8 @@
 .productTitle {
     font-size: 25px;
 }
+
+.productImage{
+    height:200px;
+    margin-right:20px;
+}

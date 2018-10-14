@@ -2,6 +2,7 @@
     {
         "name": "Honeycomb Shelves", 
         "description": "Made out of welded aluminum and accentuated walnut, these hexagonal shelves will add the perfect accent to any space.",
+        "imageUrl": "/assets/honeycomb.jpg",
         "priceOptions": 
         [
             {"size": "8\"", "price": 30},
@@ -25,6 +26,7 @@
     {
         "name": "Triangle Planters", 
         "description": "Available in brass, steel or aluminum, these planters will give you versatility when it comes to matching the perfect base for your plants.",
+        "imageUrl": "/assets/triangle_planters.jpg",        
         "priceOptions": 
         [
             {"size": "4\"", "type": "steel", "price": 5},
@@ -54,6 +56,7 @@
     {
         "name": "Dry Vases", 
         "description": "This modern and minimalistic design will highlight the beauty of any dry flower arrangement.",
+        "imageUrl": "/assets/dry_vases.jpg",        
         "priceOptions": 
         [
             {"size": "5\"", "type": "Brass + Walnut", "price": 5},
