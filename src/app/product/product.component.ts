@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Product } from './Product';
+import { Product, Addon } from './Product';
 
 
 @Component({
@@ -12,6 +12,7 @@ export class ProductComponent implements OnInit {
   activeImageSrc: string;
   selectedType: string;
   selectedSize: string;
+  addOnOptions: Object = new Object();
   constructor() {}
   ngOnInit() {
     this.selectedType = this.uniqueTypes(this.product)[0];
@@ -44,7 +45,22 @@ export class ProductComponent implements OnInit {
     });
 
     if (priceOption){
-      return priceOption.price;
+      var addOnPrice = 0;
+      for(var addOnOption in this.addOnOptions)
+      {
+         addOnPrice += this.product.addOns.find(function(addOn){
+           return addOn.addOnDescription == addOnOption;
+         }).addOnPrice;
+      }
+      return priceOption.price + addOnPrice;
+    }
+  }
+  onChangeAddOnOption(addOn: Addon, addOnOption: string){
+    if (addOnOption == "None") {
+      delete this.addOnOptions[addOn.addOnDescription];
+    }
+    else {
+      this.addOnOptions[addOn.addOnDescription] = addOnOption;
     }
   }
 }

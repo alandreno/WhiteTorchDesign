@@ -18,7 +18,7 @@
         </div>        
         <div class="addOnContainer" *ngFor="let addOn of product.addOns">
             <div class="addOnDescription">{{addOn.addOnDescription}} (additional ${{addOn.addOnPrice}})</div>
-            <select class="addOnOptionSelect">
+            <select class="addOnOptionSelect" (change)="onChangeAddOnOption(addOn, $event.target.value)">
                 <option>None</option>
                 <option *ngFor="let addOnOption of addOn.addOnOptions" value= {{addOnOption}}>
                     {{addOnOption}}
