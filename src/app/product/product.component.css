@@ -39,7 +39,7 @@
 }
 
 .productImage{
-    height:233px;
+    height:247px;
     margin-right:20px;
 }
 
@@ -48,4 +48,8 @@
     white-space: normal;
     width:300px;
     margin-bottom: 13px;
+}
+
+.priceContainer{
+    margin-top:6px;
 }
