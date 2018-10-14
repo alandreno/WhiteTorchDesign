@@ -3,6 +3,11 @@
     src: url('\content\fonts\Apalu.ttf'); 
 }
 
+@font-face{
+    font-family: readableFont;
+    src: url('\content\fonts\niramit\Niramit-Light.ttf'); 
+}
+
 html{
     background-image: url('\content\images\forest-fade.png');
     background-size: cover;
@@ -18,8 +23,6 @@ html, body, app-root{
     font-family: mainFont;
 }
 
-.ngx-gallery-preview-img {
-    -webkit-box-shadow:0px 0px 36px 18px #636363 ;
-    -moz-box-shadow:0px 0px 36px 18px #636363 ;
-    box-shadow:0px 0px 36px 18px #636363 ;
+.outletContent{
+    font-family: readableFont;
 }

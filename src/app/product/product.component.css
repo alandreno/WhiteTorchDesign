@@ -1,0 +1,30 @@
+.addOnDescription{
+    font-size: 12px;
+}
+
+.productContainer{
+    background-color: #eef3f2b0;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+.optionsContainer, .imageContainer{
+    display: inline-block;
+}
+
+.addOnContainer{
+    margin-left:5px;
+}
+
+.productContainer{
+    font-size: 0px;
+}
+
+.productContainer > * {
+    font-size: initial;
+}
+
+.productTitle {
+    font-size: 25px;
+}

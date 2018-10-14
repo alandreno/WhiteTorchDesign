@@ -8,6 +8,7 @@ export class Product {
 export class PriceOptions{
     size: string;
     price: number;
+    type: string;
 }
 
 export class Addon{

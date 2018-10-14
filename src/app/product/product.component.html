@@ -1,1 +1,32 @@
-<div>{{this.product.name}}</div>
+<div class="productContainer">
+    <div class="imageContainer">
+        <img [src]="activeImageSrc" />
+    </div>
+    <div class="optionsContainer">
+        <div class="productTitle">{{this.product.name}}</div>
+        <div class="optionsSubContainer">
+            <select *ngIf="uniqueTypes(product).length" class="typeSelect" [(ngModel)]="selectedType">
+                    <option *ngFor="let type of uniqueTypes(product)" [ngValue]=type>
+                        {{type}}
+                    </option>
+                </select>
+            <select *ngIf="uniqueSizes(product).length" class="sizeSelect" [(ngModel)]="selectedSize">
+                <option *ngFor="let size of uniqueSizes(product)" [ngValue]=size>
+                    {{size}}
+                </option>
+            </select>
+        </div>        
+        <div class="addOnContainer" *ngFor="let addOn of product.addOns">
+            <div class="addOnDescription">{{addOn.addOnDescription}} (additional ${{addOn.addOnPrice}})</div>
+            <select class="addOnOptionSelect">
+                <option>None</option>
+                <option *ngFor="let addOnOption of addOn.addOnOptions" value= {{addOnOption}}>
+                    {{addOnOption}}
+                </option>
+            </select>
+        </div>
+        <div *ngIf="calculatedPrice()">Price: ${{calculatedPrice()}}</div>        
+    </div>
+</div>
+
+
