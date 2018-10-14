@@ -3,18 +3,27 @@
 }
 
 .productContainer{
-    background-color: #eef3f2b0;
+    background-color: #7f8e8bb0;
+    color: white;
     padding: 20px;
     margin: 20px;
     display: flex;
+    border-radius: 8px;
+}
+
+.productContainer select{
+    border-radius: 4px;
+    background-color: #27344180;
+    color: white;
+    padding: 6px;
 }
 
 .optionsContainer, .imageContainer{
     display: inline-block;
 }
 
-.addOnContainer{
-    margin-left:5px;
+.addOnContainer, .optionsSubContainer, .productDescription{
+    margin-left:10px;
 }
 
 .productContainer{
@@ -30,6 +39,13 @@
 }
 
 .productImage{
-    height:200px;
+    height:233px;
     margin-right:20px;
+}
+
+.productDescription{
+    font-size: 12px;
+    white-space: normal;
+    width:300px;
+    margin-bottom: 13px;
 }

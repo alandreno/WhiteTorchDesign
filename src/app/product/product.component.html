@@ -4,6 +4,7 @@
     </div>
     <div class="optionsContainer">
         <div class="productTitle">{{this.product.name}}</div>
+        <div class="productDescription">{{this.product.description}}</div>        
         <div class="optionsSubContainer">
             <select *ngIf="uniqueTypes(product).length" class="typeSelect" [(ngModel)]="selectedType">
                     <option *ngFor="let type of uniqueTypes(product)" [ngValue]=type>

@@ -29,15 +29,15 @@
         "imageUrl": "/assets/triangle_planters.jpg",        
         "priceOptions": 
         [
-            {"size": "4\"", "type": "steel", "price": 5},
-            {"size": "8\"", "type": "steel", "price": 20},
-            {"size": "12\"", "type": "steel", "price": 30},
-            {"size": "4\"", "type": "aluminum", "price": 20},
-            {"size": "8\"", "type": "aluminum", "price": 25},
-            {"size": "12\"", "type": "aluminum", "price": 35},
-            {"size": "4\"", "type": "brass", "price": 30},
-            {"size": "8\"", "type": "brass", "price": 40},
-            {"size": "12\"", "type": "brass", "price": 50} 
+            {"size": "4\"", "type": "Steel", "price": 15},
+            {"size": "8\"", "type": "Steel", "price": 20},
+            {"size": "12\"", "type": "Steel", "price": 30},
+            {"size": "4\"", "type": "Aluminum", "price": 20},
+            {"size": "8\"", "type": "Aluminum", "price": 25},
+            {"size": "12\"", "type": "Aluminum", "price": 35},
+            {"size": "4\"", "type": "Brass", "price": 30},
+            {"size": "8\"", "type": "Brass", "price": 40},
+            {"size": "12\"", "type": "Brass", "price": 50} 
         ],
         "addOns" : 
         [
@@ -59,10 +59,10 @@
         "imageUrl": "/assets/dry_vases.jpg",        
         "priceOptions": 
         [
-            {"size": "5\"", "type": "Brass + Walnut", "price": 5},
-            {"size": "10\"", "type": "Brass + Walnut", "price": 20},
+            {"size": "5\"", "type": "Brass + Walnut", "price": 30},
+            {"size": "10\"", "type": "Brass + Walnut", "price": 35},
             {"size": "5\"", "type": "Brass + Maple", "price": 30},
-            {"size": "10\"", "type": "Brass + Maple", "price": 20}
+            {"size": "10\"", "type": "Brass + Maple", "price": 35}
         ]
     }
 ]

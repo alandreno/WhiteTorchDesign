@@ -13,11 +13,15 @@
     width: 700px;
     vertical-align: middle;
     white-space: initial;
+    font-size: 19px;
 }
 
 .homeContainer{
     white-space: nowrap;
     position: absolute;
     left: 222px;
-    top: 155px;
+    top: 118px;
+    background-color: #ffffff54;
+    padding: 50px;
+    border-radius: 8px;
 }
