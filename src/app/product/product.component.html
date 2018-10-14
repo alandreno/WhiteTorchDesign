@@ -26,7 +26,8 @@
                 </option>
             </select>
         </div>
-        <div *ngIf="calculatedPrice()" class="priceContainer">Price: ${{calculatedPrice()}}</div>        
+        <div *ngIf="calculatedPrice()" class="priceContainer">Price: ${{calculatedPrice()}}</div>     
+        <div class="disclaimerContainer">*For more information about purchasing, see the contact page <a [routerLink]="['/contact']">here</a></div>                   
     </div>
 </div>
 
